@@ -1,0 +1,47 @@
+.category-section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.section .section-head {
+    text-align: center;
+    font-size: 5rem;
+    color: #0e79bd;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.section .section-para {
+    text-align: center;
+    font-size: 2.3rem;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.1rem;
+    margin-top: 3rem;
+}
+
+.section .category-container .cat-head {
+    font-size: 3.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.section .category-container .category-box {
+    margin: 8rem 0rem;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .section .category-container .category-box .cat-box {
+    height: 100px;
+    width: 100px;
+    background: whitesmoke;
+} */

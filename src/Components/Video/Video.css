@@ -1,0 +1,44 @@
+.video-section {
+    height: 100vh;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+
+.video-container video {
+    position: relative;
+    border-radius: 5rem;
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+    /* width: 100%; */
+}
+
+/* video[poster] {
+    object-fit: cover;
+    height: 100%;
+    width: 100%; */
+/* } */
+
+.video-container i {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    color: white;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    transition: 0.5s;
+}
+
+.video-container:hover i {
+    opacity: 1;
+}

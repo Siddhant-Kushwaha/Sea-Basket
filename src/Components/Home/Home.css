@@ -1,0 +1,61 @@
+.section {
+    font-family: "Roboto", sans-serif;
+    /* height: 100vh; */
+    width: 100vw;
+    padding: 3rem 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+    gap: 2rem;
+    padding-bottom: 10rem;
+    /* overflow: hidden; */
+}
+
+.home-section {
+    height: 100vh;
+}
+
+.section nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0e79bd;
+}
+
+.section nav .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.section nav .links a {
+    font-weight: 500;
+    color: #0e79bd;
+    font-size: 2.5rem;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+
+.section nav .links button {
+    background: #0e79bd;
+    padding: 1.2rem 5rem;
+    border-radius: 0.65rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: white;
+}
+
+.section .home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.section .home-img img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+}

@@ -1,0 +1,41 @@
+.footer {
+    height: 38.5rem;
+    background-color: #0e79bd;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.footer-items {
+    margin-top: 6rem;
+    display: flex;
+    height: 22.5rem;
+    width: 120rem;
+}
+.foot-image {
+    flex: 1 1 0;
+}
+.foot-item {
+    flex-grow: 0.5;
+    display: flex;
+    flex: 1 1 0;
+}
+#right {
+    margin-left: 10rem;
+}
+.foots.left {
+    margin-left: 6rem;
+}
+.foots {
+    font-size: 2rem;
+}
+.foots div {
+    margin-bottom: 3rem;
+    color: white;
+}
+.foot-note {
+    position: absolute;
+    z-index: 100;
+    bottom: 6rem;
+    font-size: 1.4rem;
+    color: white;
+}
